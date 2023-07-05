@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    Margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+body{
+    background-color: #0f0f0f;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#Logo{
+    margin-right: 15vw;
+    color: #5b78f6;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.mid_nav{
+    font-size: 16px;
+    color: #828282;
+    transition: 200ms;
+}#active{
+    color: white;
+}
+.mid_nav:hover{
+    color: white;
+    transition: 200ms;
+}
+header button{
+    margin-left: 15vw;
+    padding: 10px 30px 10px 30px;
+    border-radius: 9px;
+    background-color: #323232;
+    color: white;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+    transition: 350ms;
+}
+
+header button:hover{
+    background-color: white;
+    color: #323232;
+    transition: 350ms;
+    cursor: pointer;
+}
+
+#bodyy{ 
+    display: flex;
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+
+#container{
+    display: flex;
+    flex-shrink: 1;
+    background-image: linear-gradient(to bottom right, #202020, #111111);
+    width: 43vw;
+    height: 54vh;
+    border-radius: 30px;
+    align-items: center;
+    position: relative;
+    margin-right: 1.5vw;
+
+}
+#image{
+    background-image: linear-gradient(to right, #5b78f6, white, #5b78f6);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: 10% 5% 10% 5%;
+    width: 50%;
+}
+
+
+#container div h2,p{
+    color: #828282;
+    font-size: 1vw;
+    font-weight: 300;
+}
+#container div h1{
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2.5vw;
+    font-weight: 400;
+}
+#sudo{
+    background-image: url(../Images/Arrow\ Dark.png);
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 2vw;
+    bottom: 5vh;
+    transition: 200ms;
+}
+
+#container:hover #sudo{
+    background-image: url(../Images/Arrow\ Bright.png);
+    transition: 200ms;
+}
+#container2{
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#scroll{
+    width: 100%;
+    height: 8vh;
+    margin-bottom: 4vh;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom right, #202020, #111111);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#scroll marquee{
+    color:#828282;
+    width: 92%;
+    font-size: 14px;
+}
+
+#scroll marquee span{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.small_container{
+    width: 22vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 1;
+    align-items: flex-start;
+    background-image: linear-gradient(to bottom right, #202020, #111111);
+    border-radius: 30px;
+    position: relative;
+}
+
+
+.small_container img{
+    width: 75%;
+    height: 50%;
+    margin: 10% 0 0 10%;    
+}
+#sign{
+    height: 40%;
+    padding-bottom: 5%;
+}
+.small_container h2{
+    color: #828282;
+    margin: 10% 0 0 10%;    
+    font-size: 1vw;
+    font-weight: 300;
+}
+.small_container h1{
+    color: white;
+    margin: 5% 0 0 10%;  
+    padding: 0 0 0 0;  
+    font-size: 1.7vw;
+    font-weight: 300;
+}
+
+.small_container:hover #sudo{
+    background-image: url(../Images/Arrow\ Bright.png);
+    transition: 200ms;
+    cursor: pointer;
+}
+.long_container{
+    width: 43vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 1;
+    align-items: flex-start;
+    background-image: linear-gradient(to bottom right, #202020, #111111);
+    border-radius: 30px;
+    position: relative;
+}
+#contacts{
+    background-image: linear-gradient(to bottom right, #303030, #111111);
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10% 0 7% 15%;
+    border-radius: 30px;
+}
+#Linkedin{
+    background-image: url(../Images/Linkedin\ White.png);
+    background-size: contain;
+    height: 70%;
+    width: 36%;
+    background-repeat: no-repeat;
+    transition: 200ms;
+}
+
+#Linkedin:hover{
+    background-image: url(../Images/Linkedin\ Black.png);
+    transition: 200ms;
+    cursor: pointer;
+}
+#GitHub{
+    background-image: url(../Images/GitHub\ White.png);
+    background-size: contain;
+    height: 70%;
+    width: 36%;
+    background-repeat: no-repeat;
+}
+
+
+#GitHub:hover{
+    background-image: url(../Images/GitHub\ Black.png);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+
+.long_container div{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 12%;
+}
+
+.long_container div img{
+    height: 100%;
+}
+.long_container h2{
+    color: #828282;
+    margin: 10% 0 0 10%;    
+    font-size: 1vw;
+    font-weight: 300;
+}
+.long_container h1{
+    color: white;
+    margin: 2% 0 0 10%;  
+    padding: 0 0 0 0;  
+    font-size: 1.7vw;
+    font-weight: 300;
+}
+
+.long_container:hover #sudo{
+    background-image: url(../Images/Arrow\ Bright.png);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+#stats{
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 0 0;
+}
+
+#stats div{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #303030, #111111);
+    width: 25%;
+    height: 70%;
+    margin-top: 0;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#stats div span{
+    color: #828282;
+    margin-top: 10%;
+    font-size: 1vw;
+}
+
+.long_container span{
+    margin: 5% 0 0 5%;
+    font-size: 40px;
+    color: white;
+}
+.long_container span span{
+    color: #5b78f6;
+}
+
+#work{
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    display: block;
+    height: 30%;
+}
+#work img{
+    margin-left: 10%;
+}
+
+
+footer div{
+    margin-top: 25vh;
+    color: #5b78f6;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Kalam', cursive;
+    font-weight: 600;
+}
+footer section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6vh 35vw 6vh 35vw;
+}
+
+#copyright{
+    color: #828282;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 15vh 0;
+    font-weight: normal;
+}
+
+#copyright span{
+    color: #5b78f6;
+}

@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    Margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+body{
+    background-color: #0f0f0f;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#Logo{
+    margin-right: 15vw;
+    color: #5b78f6;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.mid_nav{
+    font-size: 16px;
+    color: #828282;
+    transition: 200ms;
+}#active{
+    color: white;
+}
+.mid_nav:hover{
+    color: white;
+    transition: 200ms;
+}
+header button{
+    margin-left: 15vw;
+    padding: 10px 30px 10px 30px;
+    border-radius: 9px;
+    background-color: #323232;
+    color: white;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+    transition: 350ms;
+}
+
+header button:hover{
+    background-color: white;
+    color: #323232;
+    transition: 350ms;
+    cursor: pointer;
+}
+
+
+
+
+
+
+#bodyy{ 
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+#left_container{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#right_container{
+    width: 65%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #202020, #111111);
+    border-radius: 30px;
+    
+}
+
+#left_container h3{
+    color: white;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+
+#links{
+    width: 100%;
+    height: 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10%;
+    font-size: small;
+    height: 25%;
+}
+.abc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+.abc h4{
+    color: #828282;
+    font-weight: 500;
+}
+
+#links div section{
+    height: 70%;
+    aspect-ratio:  1/1;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #404040, #111111);
+    margin-right: 10%;
+    border-radius: 10px;
+
+}
+
+#links div section img{
+    width: 50%;
+}
+
+#socials{
+    height: 20%;
+    width: 100%;
+}
+#socials div{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20%;
+    margin-top: 5%;
+
+}
+#linkedin{
+    background-image: url(../Images/Linkedin\ White.png);  
+    background-size: contain;
+    aspect-ratio: 1/1;
+    width: 25%;
+    height: 60%;
+    transition: 200ms;
+}
+#github{
+    background-image: url(../Images/GitHub\ White.png);  
+    background-size: contain;
+    aspect-ratio: 1/1;
+    width: 25%;
+    height: 60%;
+    transition: 200ms;
+}
+#insta{
+    background-image: url(../Images/Instagram\ White.png);  
+    background-size: contain;
+    aspect-ratio: 1/1;
+    width: 25%;
+    height: 60%;
+    transition: 200ms;
+}
+
+#linkedin:hover{
+    background-image: url(../Images/Linkedin\ Black.png);  
+    cursor: pointer;
+    transition: 200ms;
+}
+
+#github:hover{
+    background-image: url(../Images/GitHub\ Black.png);  
+    cursor: pointer;
+    transition: 200ms;
+}
+
+#insta:hover{
+    background-image: url(../Images/Instagram\ Black.png);  
+    cursor: pointer;
+    transition: 200ms;
+}
+
+
+
+
+
+#head{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    height: 15%;
+    justify-content: space-between;
+}
+
+#head div{
+    font-size: 42px;
+    color: white;
+    margin-top: 6%;
+    font-weight: 500;
+}
+
+#head div span{
+    color: #5b78f6;
+}
+
+form{
+    display: flex;
+    height: 75%;
+    margin: 5% 5% 5% 5%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.input{
+    height: 12%;
+    background-image: linear-gradient(to bottom right, #292929, #1f1f1f);
+    border-radius: 10px;
+    border: none;
+    padding-left: 3%;
+    color: white;
+    font-size: 14px;
+}
+
+#Message{
+    height: 35%;
+    resize: none;
+    padding-top: 2%;
+}
+
+#submit{
+    height: 12%;
+    background-color: #404040;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    
+    transition: 200ms;
+    font-size: medium;
+}
+#submit:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: 200ms;
+
+}
+
+
+
+
+
+
+
+footer div{
+    margin-top: 25vh;
+    color: #5b78f6;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Kalam', cursive;
+    font-weight: 600;
+}
+footer section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6vh 35vw 6vh 35vw;
+}
+
+#copyright{
+    color: #828282;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 15vh 0;
+    font-weight: normal;
+}
+
+#copyright span{
+    color: #5b78f6;
+}
